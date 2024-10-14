@@ -1,5 +1,7 @@
 # BloGo
 
+Requirements: goose, sqlc, docker, postgresql
+
 Db cmds
 
 ``` bash
