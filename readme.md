@@ -1,5 +1,8 @@
+# BloGo
+
 Db cmds
-```
+
+``` bash
 docker pull postgres
 
 docker run --name postgresdb   -e POSTGRES_USER=myuser   -e POSTGRES_PASSWORD=mysecretpassword   -e POSTGRES_DB=postgresdb   -v $(pwd)/db:/docker-entrypoint-initdb.d/   -p 5432:5432   -d postgres
@@ -11,4 +14,6 @@ docker run -p 80:80 \
 
 
 goose postgres "host=localhost port=5432 user=myuser password=mysecretpassword dbname=blogoDb sslmode=disable" up
+
+sqlc generate # scafolds database & models
 ```
