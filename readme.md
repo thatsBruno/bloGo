@@ -1,6 +1,6 @@
 # BloGo
 
-Requirements: goose, sqlc, docker, postgresql
+Requirements: goose(schema), sqlc(queries), docker, postgresql
 
 Db cmds
 
