@@ -2,9 +2,11 @@
 
 ![blogo](https://github.com/user-attachments/assets/73108bb4-5b7a-4255-ac74-d99ca8da3c1e)
 
-Requirements: goose(schema), sqlc(queries), docker, postgresql
+Learning resources from boot.dev
 
-Db cmds
+Requirements: Go, goose (schema), sqlc (queries), docker, postgresql.
+
+## Db cmds
 
 ``` bash
 docker pull postgres
