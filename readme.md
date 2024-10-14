@@ -21,3 +21,5 @@ goose postgres "host=localhost port=5432 user=myuser password=mysecretpassword d
 
 sqlc generate # scafolds database & models
 ```
+
+Request auth requires `Header: Authorization : ApiKey 140194325234053`
